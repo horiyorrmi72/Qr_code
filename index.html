@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit">
+
+  <title>Frontend Mentor | QR code component</title>
+
+ 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1440px;
+      font-family: 'Outfit', sans-serif;
+      overflow-x: hidden;
+      
+      
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      width:330px ;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 5%;
+      position: absolute;
+      top: 50%;
+      transform:translate(0,-50%) ;   
+      
+    }
+    .hero_img{
+     margin: 15px;border-radius: 3%;
+    }
+    .qr_img{
+      width: 100%;
+      border-radius: 5%;
+
+    }
+    .text-section{
+      font-size: 16px;
+      text-align: center;
+      
+    }
+    .text-section h3{
+      font-size: 22px;
+      font-weight: 700;
+      justify-items: legacy;
+     
+    }
+    .text-section p{
+      font-weight: 400;
+      font-family: 'Outfit', sans-serif;
+      text-align: center;
+      margin: 15px;
+      
+
+
+    }
+    span{
+      text-transform: uppercase;
+    }
+    .facilitator{
+      text-transform: capitalize;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="hero_img">
+      <section class="qr">
+        <img src="images/image-qr-code.png" alt="" class="qr_img">
+      </section>
+    <section class="text-section">
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>Scan the <span>qr</span> code to visit <span class="facilitator">frontend mentor</span> and take your coding
+        skills to the next level</p>
+    </section>
+    </div>
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Horla</a>.
+  </div>
+</body>
+
+</html>
