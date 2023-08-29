@@ -27,8 +27,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/horiyorrmi72/qr_code)
-- Live Site URL: [Add live site URL here](https://qr-code-sage-ten.vercel.app/)
+- Solution URL: [View Solution Here](https://github.com/horiyorrmi72/qr_code)
+- Live Site URL: [Visit site](https://qr-code-sage-ten.vercel.app/)
 
 ### Built with
 
